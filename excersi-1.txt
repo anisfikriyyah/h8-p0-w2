@@ -1,0 +1,97 @@
+=======================================================================================================
+Algoritma Newton Second Law
+
+1. masukan nilai 'massaBenda' = 600
+2. maukan nilai 'percepatanBenda'=2
+3. Sediakan ruang untuk 'resultGaya'
+4. hitung 'massaBenda' dengan 'percepatanBenda'
+5. tampilkan 'resultGaya'
+6. program selesai.
+
+-------------------------------------------------------------------------------------------------------
+Pseudocode Newton Second Law
+
+store 'massaBenda' with 600
+store 'percepatanBenda' with 2
+store 'resultGaya' 
+
+calculate 'masaBenda' and 'persepatanBenda'
+set 'resultGaya' value with calcutalion result 
+
+display 'resultGaya'
+
+========================================================================================================
+Algoritma Tahun Kabisat
+
+1. masukan nilai 'tahun' dengan angka 
+   1.a jika 'tahun' habis dibagi 4 dan 'tahun' tidak habis dibagi 100
+        - tampilkan 'tahun kabisat'
+   1.b jika 'tahun' habis dibagi 4 dan 'tahun' habis dibagi 100 dan 'tahun' habis dibagi 400 
+        - tampilkan 'bukan tahun kabisat'
+2. program selesai
+
+---------------------------------------------------------------------------------------------------------
+pseudocode 
+
+store 'tahun' with any value number
+
+if 'tahun' mod 4 equals 0 and 'tahun' mod 100 not equals 0 
+  display 'Tahun Kabisat'
+else if 'tahun' mod 4 equals 0 and 'tahun' mod 100 equals 0 and 'tahun' mod 400 equals 0 
+  display 'Tahun Kabisat'
+else 
+display 'Bukan Tahun kabisat'
+
+=========================================================================================================
+Algoritma Laudry Day 
+
+1. Masukan nilai 'JumlahPakaian' sebanyak 20 
+2. masukan nilai 'conter' = 0
+3. while 'jumlahPakaian' kurang dari 20 maka ke step 5  
+4. Ulangi step 3 selama 'jumlahPakaian' masih dibawah 20. 
+   4.a Jika 'jumlahPakaian' sudah 20, lanjut ke step 6.
+5. Tambah 'counter' dengan 1, agar semakin mendekati batas perulangan. Kembali ke step 4.
+6. Selesai
+
+----------------------------------------------------------------------------------------------------------
+pseudocode Laudry Day
+
+store 'jumlahPakaian' <20
+store 'counter' = 0
+
+while 'counter' less than 'jumlahPakaian' do 
+	display 'cucii'
+set 'counter'='counter'+1
+end while
+
+==========================================================================================================
+Algoritma Potong Kuku 
+
+1. Masukan nilai 'jumlahSiswa' sebanyak 41 
+2. masukan nilai 'conter' = 1
+3. masukan ruang untuk 'kukusiswa'
+3. while 'jumlahSiswa' kurang dari 41 maka tampilkan 'counter' siswa
+   3.a jika 'kukusiswa'= panjang maka 'guru menghukum'
+   3.b jika 'kukusiswa'= pendek maka 'good job!'  
+4. Ulangi step 3 selama 'jumlahSiswa' masih dibawah 40. 
+   4.a Jika 'jumlahSiswa' sudah 40, lanjut ke step 6.
+5. Tambah 'counter' dengan 1, agar semakin mendekati batas perulangan. Kembali ke step 4.
+6. aplikasi selesai  
+
+-----------------------------------------------------------------------------------------------------------
+pseudocode Potong Kuku
+
+store 'jumlahSiswa' to 41
+store 'counter' to 1
+store 'kukusiswa'
+
+while 'jumlahSiswa' < 41
+  display 'counter' siswa   
+  if 'KukuSiswa' = panjang 
+    display 'guru hukum'
+  else
+    display 'good job!'
+  end if
+'counter'='counter'+1
+end while
+
